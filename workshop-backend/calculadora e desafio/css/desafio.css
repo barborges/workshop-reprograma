@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: rgb(83, 83, 81);
+}
+
+.barra-navegação {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #462755;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.barra-navegacao__logotipo {
+  max-height: 50%;
+  max-width: 50%;
+}
+
+h1 {
+font-size: 35px;
+color: rgb(252, 252, 250);
+text-align: center;
+margin-top: 3cm;
+}
+
+h2 {
+color:rgb(252, 252, 250);
+}
+
+h3 {
+  color: aliceblue;
+  font:status-bar;
+  font-size: xx-large;
+  margin-bottom: 0cm;
+}
+
+h4 {
+  color: aliceblue;
+  font:status-bar;
+  font-size: xx-large;
+  margin-bottom: 0cm;
+}
+
+h5 {
+  color: aliceblue;
+  font: status-bar;
+  font-size:medium;
+  margin-bottom:initial;
+
+  
+}
+
+button {
+  color:rgb(0, 0, 0);
+  cursor: pointer;
+  margin-top: 3mm;
+  border-radius: 8mm;  
+  
+}
+
+.resultado__box {
+  margin-top: 8mm;
+  margin-bottom: 8mm;
+  font: status-bar;
+  font-size: medium;
+  color:aliceblue;
+}
+
+a {
+  color:white;
+  font: status-bar;
+  margin-top: 3mm;
+  font-size: medium;
+}
+
